@@ -4,7 +4,7 @@ Easy way to create documentation.
 
 ##How To
 
- - download EasyDoc from [github](https://github.com/saturngod/easydoc)
+ - download EasyDoc from [github](https://github.com/saturngod/easydoc/releases)
  - Edit index.html between `<div id="content">` and `</div>`
  - write with markdown
 
