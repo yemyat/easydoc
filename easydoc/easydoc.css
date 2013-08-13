@@ -1,0 +1,58 @@
+body{font-family:Arial;color:#505050;font-size:13px} 
+h1,h2,h3 {padding-top:5px;} 
+h1 {font-size:18px;} h2 {font-size:14px ; padding-top:20px; border-top:1px solid #CCC;} h3 {font-size:13px;margin-left:8px; color:#9090AA;padding-bottom:5px;border-bottom:1px solid #CCC;} code {background: #f3f6fb} pre > code {background: #f3f6fb !important;border: 1px solid #dbdde2;}
+a , a:visited { color:#2badad;text-decoration: none} ul,li {list-style: none} li {padding-top:5px;} ul {padding-left: 20px} #toc > ul{padding: 0px}
+#toc > h1 {
+    padding: 0px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title {
+    font-size: 20px;
+}
+#toc > ul > a li {
+    color: #9090aa;
+    padding-top: 5px;
+    font-weight: bold;
+    padding-left: 0px;
+}
+#toc > ul > ul {
+    padding-left: 0px;
+    padding-top: 5px;
+}
+#toc > ul > ul > a li:before {
+    content: "- "
+}
+@media all and (min-width: 747) {
+  #toc{
+    width:200px;
+    padding-right: 10px;
+    padding-left: 10px;
+    top:0px;
+    left:0px;
+    position: fixed;
+    overflow-y: auto;     
+    height: 100%         
+}
+  #content {
+    
+    border-left:1px solid #CCC;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+  #container {
+    padding-left: 200px;
+    position: relative;
+  }
+}
+@media all and (max-width: 747) {
+    #toc {
+        padding-bottom: 10px;
+    }
+     #content {
+    
+    border-top:1px solid #CCC;
+    padding-top: 10px;
+    }
+}

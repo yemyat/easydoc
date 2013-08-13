@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Easy Doc</title>
+        <meta charset='utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <script src="./easydoc/showdown.js"></script>
+        <script src="./easydoc/jquery-2.0.3.min.js"></script>
+        <script src="./easydoc/highlight.min.js"></script>
+        <script src="./easydoc/easydoc.js"></script>
+        <link rel='stylesheet' href='./easydoc/github.css'>
+        <link rel='stylesheet' href='./easydoc/easydoc.css'>
+</head>
+<body>
+    <div id="container">
+        <div id="toc">
+        <b class='title'>Easy Doc</b>
+        
+        </div>
+        <div id="content">
+
+#EasyDoc
+
+Easy way to create documentation.
+
+##How To
+
+ - download EasyDoc from [github](https://github.com/saturngod/easydoc)
+ - Edit index.html between `<div id="content">` and `</div>`
+ - write with markdown
+
+##Markdown
+
+You can use markdown code like [Github](https://help.github.com/articles/github-flavored-markdown).
+
+###Syntax Higlight
+
+Syntax higlight for sgdoc is same like github.
+
+Example :
+
+    ```ruby
+    require 'redcarpet'
+    markdown = Redcarpet.new("Hello World!")
+    puts markdown.to_html
+    ```
+
+Will show like
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
+#MISC
+
+##Inspirations
+
+[SGDoc](saturngod.github.com/SGDoc/) have inspired **EasyDoc**. Original template design are base on Flatdoc's theme-white CSS.
+
+##Changelog
+
+###Version 0.1
+
+- just publish
+
+##Acknowledgements
+
+**EasyDoc** is authored and maintained by [Saturngod](http://en.saturngod.net).
+Released under the [MIT License](http://opensource.org/licenses/mit-license.php).
+
+
+
+        </div>
+    </div>
+</body>
+</html>
