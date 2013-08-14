@@ -24,8 +24,12 @@ a , a:visited { color:#2badad;text-decoration: none} ul,li {list-style: none} li
 /*#toc > ul > ul > li:before {
     content: "- ";
 }*/
+#toc li.active a {
+    color: #505050;
+    font-weight: bold;
+}
 #toc li.active a:before {
-    content: "- ";
+    content: "‒ ";
 }
 @media all and (min-width: 747) {
   #toc{
