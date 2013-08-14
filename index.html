@@ -9,14 +9,13 @@
         <script src="./easydoc/easydoc.js"></script>
         <link rel='stylesheet' href='./easydoc/github.css'>
         <link rel='stylesheet' href='./easydoc/easydoc.css'>
-</head>
-<body>
-    <div id="container">
-        <div id="toc">
-        <b class='title'>Easy Doc</b>
-        
-        </div>
-        <div id="content">
+    </head>
+    <body>
+        <div id="container">
+            <div id="toc">
+                <h1 class='title'>Easy Doc</h1>
+            </div>
+            <div id="content">
 <!-- Add Markdown Text Here -->
 #Header
 This is header
@@ -36,10 +35,8 @@ require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
-
 <!-- End -->
-
-        </div>
-    </div>
-</body>
+            </div><!-- //Content -->
+        </div><!-- //Container -->
+    </body>
 </html>
