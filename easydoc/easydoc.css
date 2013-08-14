@@ -11,7 +11,7 @@ a , a:visited { color:#2badad;text-decoration: none} ul,li {list-style: none} li
 .title {
     font-size: 20px;
 }
-#toc > ul > a li {
+#toc > ul > li {
     color: #9090aa;
     padding-top: 5px;
     font-weight: bold;
@@ -21,8 +21,11 @@ a , a:visited { color:#2badad;text-decoration: none} ul,li {list-style: none} li
     padding-left: 0px;
     padding-top: 5px;
 }
-#toc > ul > ul > a li:before {
-    content: "- "
+/*#toc > ul > ul > li:before {
+    content: "- ";
+}*/
+#toc li.active a:before {
+    content: "- ";
 }
 @media all and (min-width: 747) {
   #toc{
